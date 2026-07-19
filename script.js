@@ -5,7 +5,7 @@ const ageInput = document.getElementById("age");
 function calculateMonths(age){
     return age * 12
 }
-userForm.addEventListener("submit,"function(event){
+userForm.addEventListener("submit,", function(event){
     event.preventDefault();
     
     const userName= nameInput.value;
@@ -27,4 +27,14 @@ if(savedAge >= 18){
 }
 else{
     adultMessage.textContent = "❌ You are too young for adult content.";
-})
+}
+
+const months= calculateMonths(savedAge);
+ageMonths.textContent= `You are ${months} months old.`;
+
+for (let i = 1; i <= 5; i++) {
+    quotes.innerHTML += `<p class="text-blue-600 font-medium">
+       As long as you are alive the chances are infinite
+    </p>`;
+}
+});
