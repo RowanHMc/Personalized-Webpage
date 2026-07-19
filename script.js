@@ -21,5 +21,10 @@ userForm.addEventListener("submit,"function(event){
     const savedName = localStorage.getItem("name");
     const savedAge = localStorage.getItem("age");
 
-
+    greeting.textContent = `Hello, ${savedName}! 👋`;
+if(savedAge >= 18){
+    adultMessage.textContent = "✅ You can access adult content.";
+}
+else{
+    adultMessage.textContent = "❌ You are too young for adult content.";
 })
