@@ -14,4 +14,12 @@ userForm.addEventListener("submit,"function(event){
     console.log("name", userName);
     console.log("age", userAge)
 
+    
+    localStorage.setItem("name", userName);
+    localStorage.setItem("age", userAge);
+
+    const savedName = localStorage.getItem("name");
+    const savedAge = localStorage.getItem("age");
+
+
 })
