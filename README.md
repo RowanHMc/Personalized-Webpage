@@ -1,7 +1,7 @@
 # Personalized-Webpage
 
 ## Description
-this is a simple personalized webpage to practice content on js introduction.This project is an personalized webpage built using HTML, Tailwind CSS, CSS, and JavaScript.
+This is a simple personalized webpage to practice content on js introduction, the project is a webpage built using HTML, Tailwind CSS, CSS, and JavaScript.
 
 ## Features
 - User enters name and age
@@ -18,7 +18,3 @@ this is a simple personalized webpage to practice content on js introduction.Thi
 - JavaScript
 - localStorage
 
-## How to Run
-1. Download the project.
-2. Open the project folder in VS Code.
-3. Open `index.html` using Live Server.
